@@ -11,10 +11,10 @@
 
   <h2>Mi héroe favorito es: {{myHero}}</h2>
   <p>Héroes:</p>
-  <ul>
-    <li *ngFor="let hero of heroes">
-      {{ hero }}
-    </li>
-  </ul>
+  
+    
+      <button ion-button *ngFor="let hero of heroes" block>{{ hero }}</button>
+    
+  
 
 </ion-content>
