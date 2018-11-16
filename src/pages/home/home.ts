@@ -10,5 +10,10 @@ export class HomePage {
   constructor(public navCtrl: NavController) {
 
   }
+  title = 'Listado de héroes';
+
+  heroes = ['Elektra', 'Daredevil', 'Luke Cage', 'Jessica Jones'];
+
+  myHero = this.heroes[1];
 
 }
